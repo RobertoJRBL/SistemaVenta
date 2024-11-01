@@ -32,7 +32,7 @@ namespace SVRepository.Implementation
                         {
                             IdCategoria = Convert.ToInt32(dr["IdCategoria"]),
                             Nombre = dr["Nombre"].ToString()!,
-                            Activo = Convert.ToInt32(dr["Activo"].ToString()),
+                            Activo = Convert.ToInt32(dr["Activo"]),
                             RefMedida = new Medida
                             {
                                 IdMedida = Convert.ToInt32(dr["IdMedida"]),
